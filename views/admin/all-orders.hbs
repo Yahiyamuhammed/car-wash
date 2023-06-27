@@ -2,6 +2,7 @@
 <table class="table table-striped">
   <thead>
     <tr>
+      <th scope="col">name</th>
       <th scope="col">no.</th>
       <th scope="col">date</th>
       <th scope="col">address</th>
@@ -14,6 +15,7 @@
     {{#each orders}}
     <tr>
       <td>{{@index}}</td>
+      <td>{{this.first_name}}</td>
       <td>{{this.date}}</td>
       <td>{{this.house_name}}</td>
       <td>{{this.city}}</td>
